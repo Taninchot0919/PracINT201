@@ -1,0 +1,47 @@
+body {
+  background-color:#ffcbce;
+  color: black;
+  height: 100vh;
+  font-family: 'Sriracha', cursive;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+  
+h1 {
+  font-size: 3.5em;
+}
+  
+.timer {
+  display: inline-block;
+  font-size: 1.7em;
+  padding: 1em;
+}
+  
+.timer span {
+  display: block;
+  font-size: 5rem;
+}
+
+button{
+  background-color: #A8DADC;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;  
+  border-radius: 30px;
+}
+
+button:hover {
+  background-color: #a9d4d9;
+}
+  
